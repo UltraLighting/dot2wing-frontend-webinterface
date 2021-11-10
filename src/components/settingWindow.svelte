@@ -2,7 +2,7 @@
   export let name;
   export let type;
   export let reach;
-  const style = 'transition duration-50 ease-in-out p-6 bg-gray-100 text-gray-800 text-center rounded-md shadow-sm hover:shadow-md flex flex-col items-center';
+  const style = 'p-6 bg-black text-gray-300 text-center rounded-md shadow-md flex flex-col items-center';
 </script>
 {#if type === 'fader'}
   <p class="{style}">{type}</p>
