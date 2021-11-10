@@ -11,7 +11,7 @@
     <div class="flex space-x-7">
       <!-- logo and title -->
       <div class="flex items-center py-4 px-2">
-        <img src="./favicon.png" alt="Logo" class="h-8 w-8 mr-4">
+        <img src="./favicon.png" alt="Logo" class="h-8 w-8 mr-4 invert">
         <span class="font-semibold text-gray-300 text-lg uppercase">{title || ''}</span>
       </div>
     </div>
